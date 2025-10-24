@@ -32,7 +32,7 @@ Alright, here’s the simple “copy-paste and run” guide for your friends:
 
 ---
 
-### **Steps for your friends**
+# **Steps for your friends to run using docker**
 
 1. **Install Docker & Docker Compose**
    Make sure they have the latest Docker Desktop installed (works on Windows, macOS, Linux).
@@ -40,14 +40,14 @@ Alright, here’s the simple “copy-paste and run” guide for your friends:
 2. **Clone your project**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/pavan-srikar/twitter-clone.git
    cd twitter-clone
    ```
 
 3. **Go to the folder with `docker-compose.yml`**
 
    ```bash
-   cd docker  # if you put docker-compose.yml here
+   cd docker  
    ```
 
 4. **Build and start the containers**
