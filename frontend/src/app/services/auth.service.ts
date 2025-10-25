@@ -2,7 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { LocalStorageService } from 'ngx-webstorage';
-import { map, tap, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
+import { map, tap } from 'rxjs/operators'
 import { SignInRequestPayload } from '../payloads/request/sign-in';
 import { SignUpPayload } from '../payloads/request/sign-up';
 import { SignInResponsePayload } from '../payloads/response/sign-in';
